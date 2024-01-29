@@ -1,0 +1,135 @@
+# Kotlin for <img src="https://user-images.githubusercontent.com/74038190/212281763-e6ecd7ef-c4aa-45b6-a97c-f33f6bb592bd.gif" width="100">
+
+## Welcome to my notes! 
+<img src="https://user-images.githubusercontent.com/74038190/215768208-3bf3dda8-eeea-40ee-a58b-f5ac529685bf.gif" width="900">
+
+## Table of Contents
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Hello World](#hello-world)
+- [Basic Arithmetic Operators](#basic-arithmetic-operators)
+
+## Prerequisites
+
+Before you start, make sure you have the following prerequisites installed on your machine:
+- Java Development Kit (JDK) 8 or later
+- IntelliJ IDEA or any other preferred Kotlin IDE
+- Android Studio
+- Online Playgrounds
+
+## Installation
+
+To start using Kotlin, you can either use the Kotlin command-line compiler or an IDE like IntelliJ IDEA. 
+1. Download and install IntelliJ IDEA: [IntelliJ IDEA](https://www.jetbrains.com/idea/download/)
+2. **Download and Install Android Studio:** [Android Studio](https://developer.android.com/studio)
+
+   Android Studio is the official IDE for Android development. Download and install it by following the instructions on the official website.
+
+   - Launch Android Studio after installation.
+   - Configure the Android SDK and other settings as prompted during the first launch.
+
+## Hello World
+
+Let's start with a classic "Hello World" example in Kotlin. Create a new Kotlin file, typically with a `.kt` extension.
+
+```kotlin
+// HelloWorld.kt
+fun main() {
+    println("Hello, Kotlin!")
+}
+```
+## Basic Arithmetic Operators
+
+Kotlin supports standard arithmetic operators for numeric types. Here's a quick reference:
+
+| Operator | Description      | Example    |
+|----------|------------------|------------|
+| `+`      | Addition         | `a + b`    |
+| `-`      | Subtraction      | `a - b`    |
+| `*`      | Multiplication   | `a * b`    |
+| `/`      | Division         | `a / b`    |
+| `%`      | Modulus (Remainder) | `a % b`  |
+
+```kotlin
+// ArithmeticOperators.kt
+fun main() {
+    val a = 10
+    val b = 3
+
+    val sum = a + b
+    val difference = a - b
+    val product = a * b
+    val quotient = a / b
+    val remainder = a % b
+
+    println("Sum: \$sum")
+    println("Difference: \$difference")
+    println("Product: \$product")
+    println("Quotient: \$quotient")
+    println("Remainder: \$remainder")
+}
+```
+# Kotlin Programming Notes
+
+Welcome to the world of Kotlin programming! Here are some essential notes to help you get started and navigate through Kotlin's features.
+
+## Table of Contents
+- [Nullable Types](#nullable-types)
+- [String Templates](#string-templates)
+- [Collections](#collections)
+- [Functions](#functions)
+- [Classes and Objects](#classes-and-objects)
+
+## Nullable Types
+In Kotlin, variables are non-nullable by default. If you want to allow null values, you can use the nullable type modifier `?`.
+
+```kotlin
+var nullableString: String? = null
+```
+## String Templates
+Kotlin supports string templates, allowing you to embed expressions directly in strings.
+
+```kotlin
+val name = "John"
+val greeting = "Hello, $name!"
+println(greeting)
+```
+## Collections 
+Kotlin provides a rich set of collection types, including lists, sets, and maps.
+
+```kotlin
+//list
+val numbers = listOf(1, 2, 3, 4, 5)
+println(numbers)
+```
+```kotlin
+//set
+val uniqueNumbers = setOf(1, 2, 3, 4, 5)
+println(uniqueNumbers)
+```
+```kotlin
+//map
+val userMap = mapOf("name" to "Ailyn", "age" to 22)
+```
+
+## Functions
+Functions in Kotlin are defined using the `fun` keyword. They can have parameters and a return type.
+
+```kotlin
+fun add(a: Int, b: Int): Int {
+    return a + b
+}
+
+val result = add(3, 7)
+println("Result: $result")
+```
+
+## Classes and Objects
+Kotlin supports both object-oriented and functional programming paradigms. Here's a simple example of a class:
+
+```kotlin
+class Person(val name: String, val age: Int)
+
+val person = Person("Ailyn", 22)
+println("Name: ${person.name}, Age: ${person.age}")
+```
