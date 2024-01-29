@@ -71,8 +71,6 @@ fun main() {
 ```
 # Kotlin Programming Notes
 
-Welcome to the world of Kotlin programming! Here are some essential notes to help you get started and navigate through Kotlin's features.
-
 ## Table of Contents
 - [Nullable Types](#nullable-types)
 - [String Templates](#string-templates)
@@ -133,3 +131,75 @@ class Person(val name: String, val age: Int)
 val person = Person("Ailyn", 22)
 println("Name: ${person.name}, Age: ${person.age}")
 ```
+
+
+# Advanced Kotlin 
+ These notes cover more sophisticated features and techniques to enhance your Kotlin skills.
+
+## Table of Contents
+- [Coroutines](#coroutines)
+- [Extension Functions](#extension-functions)
+- [Data Classes](#data-classes)
+- [Destructuring Declarations](#destructuring-declarations)
+- [Sealed Classes](#sealed-classes)
+
+## Coroutines
+Kotlin provides support for coroutines, enabling asynchronous programming without the complexity of traditional threads.
+
+```kotlin
+import kotlinx.coroutines.*
+
+fun main() = runBlocking {
+    launch {
+        delay(1000L)
+        println("World!")
+    }
+    println("Hello, ")
+}
+```
+## Extension Functions
+Extension functions allow you to add new functions to existing classes without modifying their code.
+
+```kotlin
+fun String.toTitleCase(): String {
+    return this.split(" ").joinToString(" ") { it.capitalize() }
+}
+
+val title = "kotlin programming".toTitleCase()
+println(title)
+```
+## Data Classes 
+Data classes in Kotlin are concise and powerful, automatically generating essential methods like toString(), equals(), and hashCode().
+```kotlin
+data class Person(val name: String, val age: Int)
+
+val person1 = Person("Alice", 30)
+val person2 = Person("Alice", 30)
+
+println(person1 == person2)  // true
+```
+## Destructuring Declarations
+Destructuring declarations allow you to break down objects into their component parts.
+
+```kotlin
+val (name, age) = person1
+println("Name: $name, Age: $age")
+```
+## Sealed Classes  
+Sealed classes are a powerful tool for modeling restricted class hierarchies. They are often used in conjunction with when expressions.
+
+```kotlin
+sealed class Result {
+    data class Success(val data: String) : Result()
+    data class Error(val message: String) : Result()
+}
+
+val result: Result = Result.Success("Data received")
+
+when (result) {
+    is Result.Success -> println("Success: ${result.data}")
+    is Result.Error -> println("Error: ${result.message}")
+}
+```
+These advanced Kotlin features offer powerful solutions for complex programming scenarios.
+
