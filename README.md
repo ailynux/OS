@@ -6,6 +6,12 @@
 
 ![Animated GIF of operating systems](https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif)
 
+If you have any questions, suggestions, or just want to connect, you can find me on the following platforms:
+
+[![GitHub](https://img.shields.io/badge/GitHub-0077B5?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ailyncodes)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ailyn-diaz-802943225)
+[![Twitter](https://img.shields.io/badge/Twitter-0077B5?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/L19U1D4N63L)
+
 </div>
 
 ## Overview
@@ -18,11 +24,7 @@ Welcome to the comprehensive notes section covering a variety of operating syste
 | --- | --- |
 | *Ailyn* ☺️ | *Diaz* 👻 |
 
-If you have any questions, suggestions, or just want to connect, you can find me on the following platforms:
 
-[![GitHub](https://img.shields.io/badge/GitHub-0077B5?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ailyncodes)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/ailyn-diaz-802943225)
-[![Twitter](https://img.shields.io/badge/Twitter-0077B5?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/L19U1D4N63L)
 # Operating Systems
 
 | **Linux** 🐧 | Explore the world of Linux, a robust and open-source operating system. From basic command-line operations to advanced system administration, these notes will guide you through the essentials, empowering you to efficiently navigate and manage Linux environments. |
