@@ -14,10 +14,15 @@ Welcome to the comprehensive notes section covering a variety of operating syste
 
 ### WHO AM I
 
-| **Name** | **Character** |
+| **First** | **Last** |
 | --- | --- |
 | *Ailyn* ☺️ | *Diaz* 👻 |
 
+If you have any questions, suggestions, or just want to connect, you can find me on the following platforms:
+
+[![GitHub](https://img.shields.io/badge/GitHub-0077B5?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ailyncodes)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/ailyn-diaz-802943225)
+[![Twitter](https://img.shields.io/badge/Twitter-0077B5?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/L19U1D4N63L)
 # Operating Systems
 
 | **Linux** 🐧 | Explore the world of Linux, a robust and open-source operating system. From basic command-line operations to advanced system administration, these notes will guide you through the essentials, empowering you to efficiently navigate and manage Linux environments. |
